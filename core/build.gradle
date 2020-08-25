@@ -6,4 +6,10 @@ dependencies {
 	api "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
 	api "com.badlogicgames.ashley:ashley:$ashleyVersion"
 	api "com.badlogicgames.gdx:gdx-bullet:$gdxVersion"
+	api "io.github.libktx:ktx-app:$libKtxVersion"
+	api "io.github.libktx:ktx-log:$libKtxVersion"
+	api "io.github.libktx:ktx-graphics:$libKtxVersion"
+	api "io.github.libktx:ktx-ashley:$libKtxVersion"
+	api "io.github.libktx:ktx-collections:$libKtxVersion"
+	api "io.github.libktx:ktx-assets-async:$libKtxVersion"
 }
