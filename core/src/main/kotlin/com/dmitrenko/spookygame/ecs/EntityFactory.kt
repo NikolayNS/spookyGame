@@ -28,7 +28,7 @@ class EntityFactory(private val game: SpookyGame) {
 			with<GraphicComponent>{
 				sprite.run {
 					setRegion(mobKnight)
-					setSize(128f, 96f)
+					setSize(PLAYER_SIZE_X, PLAYER_SIZE_Y)
 					setOriginCenter()
 				}
 			}
