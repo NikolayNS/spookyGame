@@ -16,7 +16,7 @@ import ktx.app.KtxScreen
 
 class SpookyGame : KtxGame<KtxScreen>() {
 	val batch: Batch by lazy { SpriteBatch() }
-	val gameViewport: FitViewport by lazy { FitViewport(256f, 256f, ) }
+	val gameViewport: FitViewport by lazy { FitViewport(320f, 240f) }
 	val engine: Engine by lazy { PooledEngine().apply { addSystem(RenderSystem(batch, gameViewport)) } }
 
 	override fun create() {
